@@ -17,9 +17,9 @@ let prezzoScontato;
 
 // Applica sconto per minorenni e over 65
 if (eta > 65) {
-  prezzoScontato = (totalKmPrice / 100) * (100 - over65Discount);
+  prezzoScontato = (totalKmpercorsi / 100) * (100 - over65Discount);
 } else if (eta < 18) {
-  prezzoScontato = (totalKmPrice / 100) * (100 - minorDiscount);
+  prezzoScontato = (totalKmpercorsi / 100) * (100 - minorDiscount);
 } else {
   prezzoScontato = kmPercorsi; 290
 }
