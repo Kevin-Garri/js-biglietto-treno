@@ -19,7 +19,7 @@ let prezzoScontato;
 if (eta > 65) {
   prezzoScontato = (totalKmpercorsi / 100) * (100 - over65Discount);
 } else if (eta < 18) {
-  prezzoScontato = (totalKmpercorsi / 100) * (100 - minorDiscount);
+  prezzoScontato = (totalKmpercorsi / 100) * (100 - minoriDiscount);
 } else {
   prezzoScontato = kmPercorsi; 290
 }
